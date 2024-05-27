@@ -4,7 +4,7 @@ import time
 import sys
 
 # Path to TarkovRPC
-node_app_path = r"rpc-client\TarkovRPC-Controller.exe"
+node_app_path = r"rpc\TarkovRPC-Controller.exe"
 
 
 # EFT Process check
