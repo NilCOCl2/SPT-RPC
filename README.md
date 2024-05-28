@@ -5,7 +5,7 @@ A primitive and silly client that simply displays your current activity for Disc
 
 ## Usage
 * Before downloading and installing, make sure you have TechHappy's Web Minimap​ installed (On [SPT-Hub page](https://hub.sp-tarkov.com/files/file/1421-techhappy-s-web-minimap) or [GitHub](https://github.com/NNThomasL/SPTarkovWebMinimap)).
-* Download this application via [releases tab](https://github.com/NilCOCl2/SPT-RPC/releases) or on Aki Workshop (not yet).
+* Download this application via [releases tab](https://github.com/NilCOCl2/SPT-RPC/releases) or on [Aki Workshop](https://hub.sp-tarkov.com/files/file/1996-discord-rpc-for-spt/).
 * Extract the contents of **'SPT-RPC-win64.zip'** to the existing SPT-Aki folder.
 * Launch **SPT-RPC.exe** or **SPT-RPC-Launcher.bat** (this file opens RPC with Aki.Launcher).
 * Start the game.
