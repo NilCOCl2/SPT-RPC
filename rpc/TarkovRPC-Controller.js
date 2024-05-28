@@ -194,8 +194,8 @@ function updateRPCFromData(data) {
     const smallImageKey = config.faction.toLowerCase();
     const smallImageText = `${config.faction} - ${config.playerName}`;
 
-    const mapName = data.mapName || localization.undefined;
-    const mapNameTranslated = mapImages[mapName] || localization.undefined; 
+    const mapName = data.mapName || localization.unknown;
+    const mapNameTranslated = mapImages[mapName] || localization.unknown; 
 
     const largeImageKey = mapImages[mapName] ? mapName.toLowerCase() : 'default_map_image'; 
 	

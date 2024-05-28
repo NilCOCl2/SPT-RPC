@@ -1,12 +1,12 @@
 {
-  "name": "TarkovRPC",
+  "name": "TarkovRPC-Controller",
   "version": "1.0.0",
   "scripts": {
-    "start": "node TarkovRPC.js",
+    "start": "node TarkovRPC-Controller.js",
     "build": "pkg ."
   },
   "bin": {
-    "tarkov-rpc": "./TarkovRPC.js"
+    "tarkov-rpc": "./TarkovRPC-Controller.js"
   },
   "dependencies": {
     "@discordjs/builders": "1.8.1",

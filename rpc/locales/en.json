@@ -16,7 +16,7 @@
 	"wsData": "WS parsed data:",
 	"wsNoActivity": "WS is not sending data",
 	"wsParsingFailed": "Error while parsing data from WS:",
-	"undefined": "Undefined",
+	"unknown": "Unknown",
 	"playerInMenuMessage": "Player in main menu",
 	"playerInMenu": "In main menu",
 	"inRaidMessage": "Player in raid, updating RPC",

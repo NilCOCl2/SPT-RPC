@@ -16,7 +16,7 @@
 	"wsData": "Данные от WS:",
 	"wsNoActivity": "WS не отправляет данные",
 	"wsParsingFailed": "Ошибка при разборе данных от WS:",
-	"undefined": "Не определено",
+	"unknown": "Неизвестно",
 	"playerInMenuMessage": "Игрок отправлен в меню",
 	"playerInMenu": "В главном меню",
 	"inRaidMessage": "Игрок в рейде, обновляем RPC",

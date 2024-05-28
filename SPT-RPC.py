@@ -1,11 +1,12 @@
-import psutil
 import subprocess
-import time
 import sys
+import time
+import psutil
+
 
 # Path to TarkovRPC
 node_app_path = r"rpc\TarkovRPC-Controller.exe"
-
+working_directory = r"rpc"
 
 # EFT Process check
 def is_process_running(process_name):
@@ -28,7 +29,7 @@ while True:
 
         try:
             # running the thing...?
-            subprocess.Popen(node_app_path)
+            process = subprocess.Popen([node_app_path], cwd=working_directory)
         except Exception as e:
             print(f"Error: {e}")
             sys.exit(1)
@@ -40,7 +41,9 @@ while True:
         print("EscapeFromTarkov.exe closed, killing RPC...")
 
         try:
-            subprocess.Popen(["taskkill", "/f", "/im", "TarkovRPC-Controller.exe"])
+            subprocess.run(["taskkill", "/f", "/im", "TarkovRPC-Controller.exe"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
         except Exception as e:
             print(f"Something went wrong: {e}")
             sys.exit(1)
+            
+        print("Waiting for the process to start RPC again...")
