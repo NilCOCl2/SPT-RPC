@@ -1,12 +1,13 @@
 {
-  "name": "TarkovRPC-Controller",
+  "name": "tarkovrpc-controller",
   "version": "1.0.0",
+  "main": "TarkovRPC-Controller.js",
   "scripts": {
     "start": "node TarkovRPC-Controller.js",
     "build": "pkg ."
   },
   "bin": {
-    "tarkov-rpc": "./TarkovRPC-Controller.js"
+    "tarkov-rpc": "TarkovRPC-Controller.js"
   },
   "dependencies": {
     "@discordjs/builders": "1.8.1",
@@ -15,14 +16,27 @@
     "@discordjs/rest": "2.3.0",
     "@discordjs/util": "1.1.0",
     "@discordjs/ws": "1.1.0",
-    "discord.js": "14.15.2",
+    "discord-rpc": "^4.0.1",
+    "discord.js": "^14.15.2",
     "ps-list": "8.1.1",
+    "readline": "^1.3.0",
     "readline-sync": "^1.4.10",
-    "type-fest": "3.13.1"
+    "type-fest": "3.13.1",
+    "ws": "^8.17.0"
   },
   "pkg": {
     "targets": [
       "node14-win-x64"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NilCOCl2/SPT-RPC.git"
+  },
+  "author": "NilCOCl2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NilCOCl2/SPT-RPC/issues"
+  },
+  "homepage": "https://github.com/NilCOCl2/SPT-RPC#readme"
 }

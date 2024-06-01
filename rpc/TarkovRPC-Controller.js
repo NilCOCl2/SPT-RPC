@@ -99,7 +99,8 @@ function connectToRPC() {
         console.log(localization.rpcConSuccess);
         checkWebSocketAvailability();
     }).catch((error) => {
-        console.error(localization.rpcConFail, error);
+        console.log(localization.rpcConFail);
+		console.log(localization.rpcPosSol);
         setTimeout(connectToRPC, 15000);
         console.log(localization.rpcRetry);
     });
@@ -184,7 +185,7 @@ function updateRPCForMainMenu() {
         console.log(localization.rpcUpdated);
         ignoreMessagesFlag = false;
     }).catch((error) => {
-        console.error(localization.rpcUpdateFailed, error);
+        console.log(localization.rpcUpdateFailed);
     });
 }
 
@@ -210,7 +211,7 @@ function updateRPCFromData(data) {
             startTimestamp: new Date(),     
             instance: false          
         }).catch((error) => {             
-            console.error(localization.rpcUpdateFailed, error); 
+            console.log(localization.rpcUpdateFailed); 
         });
         
         lastData = mapName;
