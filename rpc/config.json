@@ -1,7 +1,7 @@
 {
     "firstRun": true,
     "faction": "BEAR",
-    "playerName": "0000",
+    "playerName": "NONAME",
     "language": "en",
     "wsPort": 8080,
     "ignoreMessages": true
